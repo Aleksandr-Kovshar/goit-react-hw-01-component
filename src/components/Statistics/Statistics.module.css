@@ -1,0 +1,38 @@
+/* Statistics.module.css */
+
+.statistics {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.statList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.percentage {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4caf50; /* или цвет, который вы предпочитаете */
+}
