@@ -1,34 +1,43 @@
 /* Statistics.module.css */
 
 .statistics {
-  padding: 20px;
-  border: 1px solid #ddd;
+  padding: 10px;
+  border: 1px solid black;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .statList {
   list-style: none;
-  padding: 0;
+  padding: 20;
   margin: 0;
 }
 
 .item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
+  padding: 6px;
+  border: 1px solid #ddd;
+
+  width: 80%;
+  height: 100%;
 }
 
 .label {
   font-size: 16px;
+  padding-right: 10px;
 }
 
 .percentage {
